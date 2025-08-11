@@ -1,0 +1,48 @@
+/* src/components/Popup.css */
+
+/* Add your popup-specific styles here */
+.popup-container {
+  width: 250px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.color-picker-input {
+  margin-bottom: 10px; /* Add some space below the color picker */
+  width: 100px; /* Example width */
+  height: 30px; /* Example height */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 2px; /* Adjust padding for better appearance of color preview */
+  display: block; /* Make it a block to center it with margin auto */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-toggle-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+}
+
+.theme-toggle-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Light Theme */
+.light-theme {
+  background: #fff;
+  color: #222;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background: #222;
+  color: #fff;
+}
